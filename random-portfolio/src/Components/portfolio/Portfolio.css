@@ -1,0 +1,40 @@
+.marginStack{
+    margin:16px 8px;
+}
+.marginHeaderStack{
+    margin:0px 8px;
+    margin-bottom: 16px;
+}
+
+.imageStack{
+    flex-flow: wrap;
+    width: 100%;
+    justify-content: center;
+    background: linear-gradient(180deg, #DCEDFF 75%, white 25%);
+}
+
+.image{
+    margin-top:12px;
+    border-radius: 360px;
+    box-shadow: 0px 4px 12px 0 black;
+}
+
+.iconStack{
+    width:100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.icon{
+    width:56px;
+    height: 56px;
+}
+
+.icon i{
+    font-size: 28px !important;
+}
+
+
+
+
