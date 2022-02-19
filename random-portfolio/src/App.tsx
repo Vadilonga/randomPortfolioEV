@@ -35,7 +35,7 @@ export default class App extends React.Component<{},IStateApp>{
         {this.state.currentUser?
           <Portfolio currentUser={this.state.currentUser}></Portfolio>
         :
-        <Spinner size={SpinnerSize.large} />
+        <Spinner className={"spinner"} size={SpinnerSize.large} />
         }
       </div>
     )
